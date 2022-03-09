@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_projects",
+  "info": {
+    "displayName": "Project",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
