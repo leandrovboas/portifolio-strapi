@@ -14,8 +14,16 @@
   "attributes": {
     "Project": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.project",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "Date": {
+      "type": "date",
       "required": true
     }
   }
