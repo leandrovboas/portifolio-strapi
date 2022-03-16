@@ -2,17 +2,18 @@
   "collectionName": "components_page_projects",
   "info": {
     "displayName": "Project",
-    "icon": "address-card"
+    "icon": "address-card",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Banner": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Title": {
       "type": "string",
@@ -20,10 +21,11 @@
     },
     "SubTitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "Content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
