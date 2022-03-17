@@ -7,24 +7,20 @@
   },
   "options": {},
   "attributes": {
-    "Banner": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "SubTitle": {
+    "subtitle": {
       "type": "string",
       "required": false
     },
-    "Content": {
+    "content": {
       "type": "richtext",
+      "required": true
+    },
+    "linkImagem": {
+      "type": "text",
       "required": true
     }
   }
